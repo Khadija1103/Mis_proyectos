@@ -1,0 +1,376 @@
+@font-face {
+	font-family: "Comic Boy";
+	src: url(../fuentes/Comic\ Boys.ttf) format("truetype");
+	font-style: normal;
+	font-weight: normal;
+
+}
+
+@font-face {
+	font-family: "Spicy Rice";
+	src: url(../fuentes/MelanieRoselyn.ttf) format("truetype");
+	font-style: normal;
+	font-weight: normal;
+
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+body.index {
+	background-image: url(../IMAG/paul-volkmer-qVotvbsuM_c-unsplash.jpg);
+	background-size: cover;
+
+
+}
+
+
+.btn-primary-index {
+	color: #F3EAEA;
+	font-size: 80px;
+	font-family: "Comic Boy";
+	background-color: #7704E9;
+	border-color: #7704E9;
+	border-radius: 8px;
+	max-width: 20rem;
+	min-width: 20rem;
+	width: 100%;
+	min-height: 8rem;
+	max-height: 8rem;
+	height: 100%;
+	padding: 5px;
+	justify-content: center;
+	letter-spacing: 0.5mm;
+
+
+
+
+}
+
+.bienvenidos {
+	display: flex;
+	justify-content: center;
+
+}
+
+.arriba {
+	margin-top: 25px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+
+}
+
+
+.abajo {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: flex-end;
+	margin-top: 8%;
+	margin-bottom: 5px;
+
+}
+
+.derecho {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 100px;
+	padding-inline: 30px;
+}
+
+body.principal {
+	height: 400px;
+	width: 1000px;
+	background-image: url(../imag/joshua-earle-C6duwascOEA-unsplashMedium.jpg);
+	font-family: "lemon";
+	background-size: cover;
+
+}
+
+.encabezado {
+	display: flex;
+	justify-content: flex-start;
+	margin-top: 50px;
+}
+
+.signos {
+	display: flex;
+	margin-left: 170px;
+	letter-spacing: 3mm;
+	word-spacing: 5px;
+
+}
+
+.img-thumbnail {
+
+	display: flex;
+	flex-direction: column;
+	margin-top: 5%;
+	margin-bottom: 5px;
+	margin-left: 50px;
+	background-color: rgba(0, 0, 0, 0.1);
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-radius: 0.10rem;
+
+}
+
+
+.boton {
+	width: 50px;
+	height: 20px;
+	padding: 10px;
+}
+
+.btn-primary {
+	color: #F3EAEA;
+	background-color: rgba(119, 4, 233, 0.5);
+	border-color: rgba(119, 4, 233, 0.5);
+	font-family: "Spicy Rice";
+	font-size: 25px;
+	width: 150px;
+	height: 80px;
+	letter-spacing: 0.5mm;
+	border-radius: 6px;
+
+}
+
+
+h3.somos {
+	display: flex;
+	flex-direction: row;
+	margin-left: 120px;
+	justify-content: center;
+	font-family: "Comic Boy";
+	letter-spacing: 3mm;
+	word-spacing: 5px;
+	color: #F3EAEA;
+	font-size: 60px;
+
+}
+
+h3 {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	font-family: "Comic Boy";
+	letter-spacing: 3mm;
+	word-spacing: 5px;
+	color: #F3EAEA;
+	font-size: 60px;
+
+}
+
+.signos {
+	display: flex;
+	justify-content: center;
+	margin-left: 200px;
+}
+
+p {
+	text-align: justify;
+	font-family: "Comic Boy";
+	color: #F3EAEA;
+	font-size: 24px;
+	letter-spacing: 0.5mm;
+}
+
+.fila {
+	background: rgba(243, 234, 234, 0.5);
+	border-radius: 10px;
+	margin-left: 250px;
+
+
+}
+
+.caja {
+	background-color: rgba(119, 4, 233, 0.2);
+	padding: 30px;
+	border-radius: 10px;
+
+}
+
+body.somos {
+	height: 600px;
+	width: 1200px;
+	background-image: url(../imag/jesse-collins-qIwFIwxl3CI-unsplash.jpg);
+	font-family: "lemon";
+	background-size: cover;
+	margin-bottom: 30px;
+
+}
+
+select {
+	background-color: #F3EAEA;
+	min-height: 2.5rem;
+	width: 150px;
+	border-radius: 5px;
+	margin: 50px;
+	box-shadow: 10px, 10px, 10px solid black;
+	box-shadow: 5px 5px black;
+	font-family: "Comic Boy";
+	font-size: 30px;
+	letter-spacing: 0.5mm;
+
+
+}
+
+form {
+
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	margin-left: 90px;
+}
+
+input {
+	display: flex;
+	justify-content: center;
+	margin-left: 625px;
+
+
+}
+
+.filasomos {
+	background: rgba(243, 234, 234, 0.5);
+	border-radius: 10px;
+	max-width: 30rem;
+	width: 100%;
+	margin-left: 410px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 34px;
+	
+
+
+}
+
+
+#respuesta {
+	background-color: rgba(228, 100, 100, 0.4);
+	color: black;
+	border-radius: 10px;
+	font-family: "Comic Boy";
+	letter-spacing: 0.5mm;
+	padding: 15px;
+	max-width: 30rem;
+	width: 100%;
+	max-height: 15rem;
+	height: 100%;
+	visibility: hidden;
+	opacity: 0;
+
+
+}
+
+form.como {
+
+	display: flex;
+	align-content: center;
+	justify-content: center;
+
+}
+
+.filacomo {
+	margin-left: 30px;
+	border-radius: 10px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+
+}
+
+.cajacomo {
+	border-radius: 10px;
+	max-width: 10rem;
+	min-width: 10rem;
+	width: 100%;
+	min-height: 20rem;
+	max-height: 20rem;
+	height: 100%;
+	margin: 30px;
+	color: rgb(8, 8, 8);
+	text-align: center;
+
+
+}
+
+.tarjeta {
+
+
+	background-image: url(../imag/jesse-collins-qIwFIwxl3CI-unsplash.jpg);
+	font-family: "lemon";
+	background-size: cover;
+
+
+
+}
+
+.btn-signo {
+	color: #7704E9;
+	background-color: #F3EAEA;
+	border-color: #F3EAEA;
+	font-family: "Spicy Rice";
+	font-size: 20px;
+	width: 100px;
+	height: 35px;
+	letter-spacing: 0.5mm;
+	margin-top: 10px;
+
+}
+
+article {
+	color: #F3EAEA;
+	font-family: "Comic Boy";
+	letter-spacing: 0.5mm;
+	font-size: 30px;
+}
+
+
+.imagmoda {
+	background-image: url(../imag/modal.jpg);
+
+}
+
+.modal-body {
+	width: 90%;
+	height: 50%;
+	background-color: rgba(228, 100, 100, 0.4);
+	border-radius: 6px;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	margin-right: 10px;
+	border: #7704E9 solid 1px;
+
+}
+
+
+
+h5{
+	color: #F3EAEA;
+	font-size: 60px;
+	font-family: "Comic Boy";
+	letter-spacing: 0.8mm;
+	margin-left: 30%;
+}
+
+#compatibles{
+	background-color: rgba(228, 100, 100, 0.4);
+	color: black;
+	border-radius: 10px;
+	font-family: "Comic Boy";
+	letter-spacing: 1 mm;
+	padding: 15px;
+	max-width: 30rem;
+	width: 100%;
+	max-height: 15rem;
+	height: 100%;
+	visibility: hidden;
+	opacity: 0;
+
+}

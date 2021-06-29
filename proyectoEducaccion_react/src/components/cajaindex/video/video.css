@@ -1,0 +1,29 @@
+.cajap {
+    max-width: 47%;
+    width: 100%;
+    min-height: 200px;
+    height: 100%;
+    text-align: center;
+    background-color: #ffffff;
+    margin: 5px;
+    padding: 12px;
+    display: inline-block;
+
+}
+
+.video{
+    margin-left: 20px;
+    padding-top:80px;
+    font-size: 33px;
+    color: #ef7f3f;
+    
+}
+.video1{
+    font-size: 20px;
+
+}
+
+.video2{
+    font-size: 25px;
+    color: #ef7f3f;
+}
